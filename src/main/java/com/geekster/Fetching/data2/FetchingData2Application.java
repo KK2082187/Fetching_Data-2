@@ -20,7 +20,6 @@ public class FetchingData2Application {
 
 		if (responseCode == 200) {
 
-
 			BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 			StringBuilder jsonResponseData = new StringBuilder();
 			String readLine = null;
